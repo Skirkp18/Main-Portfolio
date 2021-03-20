@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
+import AboutMe from "../components/aboutme/aboutme";
 
 
 function MainPage() {
@@ -7,7 +8,7 @@ function MainPage() {
         <Container fluid>
             <Row>
                 <Col lg="auto">
-                <h1>Main Page!</h1>
+                <AboutMe />
                 </Col>
             </Row>
         </Container>
