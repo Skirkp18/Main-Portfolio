@@ -5,7 +5,7 @@ import AboutMe from "../components/aboutme/aboutme";
 
 function MainPage() {
     return(
-        <Container fluid>
+        <Container fluid id="mainBackground">
             <Row>
                 <Col lg="auto">
                 <AboutMe />

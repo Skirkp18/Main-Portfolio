@@ -1,0 +1,36 @@
+#aboutmeBox {
+    border: solid 4px black;
+    margin: 10px
+
+}
+
+#aboutmeTitleBox {
+    text-align: center;
+    border: 0px;
+    border-bottom: 4px solid black;
+}
+
+#aboutmeTitleTxt {
+    font-family: 'Exo', sans-serif;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#aboutmeTxtBox {
+    background-color: lightgrey;
+    border: solid 3px black;
+    margin: 20px;
+}
+
+#aboutmeInfoTxt {
+    font-family: 'Exo', sans-serif;
+    margin: 5px;
+}
+
+#mainImg {
+    width: 300px;
+    margin: 20px;
+    border: solid 3px black;
+}
+

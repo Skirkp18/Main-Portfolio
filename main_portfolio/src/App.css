@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#mainBackground {
+  /* background-color:#282c34; */
+  background-image: url("https://miro.medium.com/max/1501/1*dP81IJq-tGFxy1rIK3RYsg.png");
+  height: 100vh;
+}

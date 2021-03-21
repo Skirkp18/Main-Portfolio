@@ -5,7 +5,7 @@ import "./style.css";
 function navBar() {
     return (
         <Navbar expand="lg" variant="dark" bg="dark">
-            <Container>
+            <Container fluid>
                 <Navbar.Brand href="/" id="navbarTxt">Sean Kirkpatrick</Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text id="navbarTxt"><a href="/projects">Projects</a></Navbar.Text>
