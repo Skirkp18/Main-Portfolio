@@ -1,7 +1,6 @@
 #aboutmeBox {
     border: solid 4px black;
     margin: 10px
-
 }
 
 #aboutmeTitleBox {
@@ -20,17 +19,12 @@
 #aboutmeTxtBox {
     background-color: lightgrey;
     border: solid 3px black;
-    margin: 20px;
+    margin: 100px;
+    /* width: 100%; */
+    /* padding-left: 20px; */
 }
 
 #aboutmeInfoTxt {
     font-family: 'Exo', sans-serif;
     margin: 5px;
 }
-
-#mainImg {
-    width: 300px;
-    margin: 20px;
-    border: solid 3px black;
-}
-

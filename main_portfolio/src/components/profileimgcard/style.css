@@ -1,0 +1,11 @@
+#mainImg {
+    width: 300px;
+    margin: 50px;
+    /* margin-left: 25%; */
+    border: solid 3px black;
+}
+
+#profileCard {
+    align-items: center;
+    border: 0px;
+}

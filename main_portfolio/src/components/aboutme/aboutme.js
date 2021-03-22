@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Card } from "react-bootstrap";
-import mainImg from "./mainImg.JPG";
+import ProfileImgCard from "../profileimgcard/profileimgcard";
+import SkillsCard from "../skillscard/skillscard";
 import "./style.css";
 
 
@@ -18,7 +19,7 @@ class aboutme extends React.Component {
             </Row>
             <Row>
                 <Col lg="4">
-                <img src={mainImg} id="mainImg" alt="Sean Kirkpatrick"/>
+                <ProfileImgCard />
                 </Col>
                 <Col lg="8">
                     <Card id="aboutmeTxtBox">
@@ -33,6 +34,11 @@ class aboutme extends React.Component {
                           kinds of foods and we post a lot of the photos to our Instagram page @CookinCouples. I also enjoy keeping up with the 
                           latest tech as well as the companies that make them and the current market conditions.</p>
                     </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                <SkillsCard />
                 </Col>
             </Row>
             </Container>
