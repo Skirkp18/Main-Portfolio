@@ -18,10 +18,10 @@ class aboutme extends React.Component {
                 </Col>
             </Row>
             <Row>
-                <Col lg="4">
-                <ProfileImgCard />
+                <Col lg="3">
+                    <ProfileImgCard />
                 </Col>
-                <Col lg="8">
+                <Col lg="9">
                     <Card id="aboutmeTxtBox">
                         <p id="aboutmeInfoTxt">My name is Sean Kirkpatrick. I currently work for Apple and am training to be 
                         a full stack web developer. I graduated from Marist College with a B.S. in Business Administration with an Emphasis 
@@ -34,13 +34,15 @@ class aboutme extends React.Component {
                           kinds of foods and we post a lot of the photos to our Instagram page @CookinCouples. I also enjoy keeping up with the 
                           latest tech as well as the companies that make them and the current market conditions.</p>
                     </Card>
+                <SkillsCard />
+
                 </Col>
             </Row>
-            <Row>
+            {/* <Row>
                 <Col>
                 <SkillsCard />
                 </Col>
-            </Row>
+            </Row> */}
             </Container>
         </Card>);
     }

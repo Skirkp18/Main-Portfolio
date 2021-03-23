@@ -1,0 +1,16 @@
+#linksBoxCard {
+    margin: 10px;
+}
+
+#linksBtn {
+    width: 125px;
+    align-items: center;
+    background-color: white;
+    border: #1a1919 2px solid;
+    opacity: 100%;
+}
+
+#linkImg {
+    width: 100px;
+    /* background-color: white; */
+}

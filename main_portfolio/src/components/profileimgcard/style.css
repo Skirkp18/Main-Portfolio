@@ -1,8 +1,7 @@
 #mainImg {
-    width: 300px;
-    margin: 50px;
-    /* margin-left: 25%; */
-    border: solid 3px black;
+    width: 350px;
+    margin: 25px;
+    border: solid 4px black;
 }
 
 #profileCard {
