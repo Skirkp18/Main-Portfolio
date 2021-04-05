@@ -10,22 +10,22 @@ class linksbox extends React.Component {
         {
             name: "GitHub",
             link: "https://github.com/Skirkp18",
-            img: "Put Img Here!"
+            imgUrl: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
         },
         {
             name: "LinkedIn",
             link: "https://www.linkedin.com/in/sean-kirkpatrick/",
-            img: "Put Img Here!"
+            imgUrl: "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
         },
         {
             name: "Instagram",
             link: "https://www.instagram.com/skirkp18/",
-            img: "Put Img Here!"
+            imgUrl: "https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300"
         },
         {
             name: "Twitter",
             link: "https://twitter.com/Skirkp18",
-            img: "Put Img Here!"
+            imgUrl: "https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.2560.jpg"
         }
     ];
 
