@@ -37,7 +37,9 @@ class linksbox extends React.Component {
                     {this.linksList.map((site) => {
                         console.log(site.name);
                         return(
+                            <Col sm="3">
                         <LinkBtn site={site} key={site.name} id={site.name} />
+                        </Col>
                         );
                     })}
                     </Row>

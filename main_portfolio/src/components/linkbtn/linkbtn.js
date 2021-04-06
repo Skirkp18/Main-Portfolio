@@ -10,10 +10,9 @@ class linkBtn extends React.Component {
         const link = this.props.site.link;
         const imgUrl = this.props.site.imgUrl;
         return (
-            <Col lg="4">
-                <Button variant="light" className="linkbtn" href={link}>
-                    <img className="linkimg" src={imgUrl} alt={linkName} />{linkName}</Button>
-            </Col>
+            <Button variant="light" className="linkbtn" href={link}>
+                    <img className="linkimg" src={imgUrl} alt={linkName} />
+                    </Button>
         )
     }
 };

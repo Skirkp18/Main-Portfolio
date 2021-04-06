@@ -12,11 +12,6 @@ function MainPage() {
                 <AboutMe />
                 </Col>
             </Row>
-            <Row>
-                <Col lg="6">
-                    <LinksBox />
-                </Col>
-            </Row>
         </Container>
     );
 };

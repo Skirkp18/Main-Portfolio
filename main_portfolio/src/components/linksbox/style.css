@@ -1,5 +1,7 @@
 #linksBoxCard {
-    margin: 10px;
+    border: solid 3px black;
+    width: 100%;
+    margin-top: 20px;
 }
 
 #linksBtn {

@@ -1,6 +1,7 @@
 #aboutmeBox {
     border: solid 4px black;
-    margin: 10px
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
 #aboutmeTitleBox {
