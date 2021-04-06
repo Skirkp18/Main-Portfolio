@@ -11,17 +11,17 @@ class aboutme extends React.Component {
         return (<Card id="aboutmeBox">
             <Container fluid>
             <Row>
-                <Col lg="12">
+                <Col sm="12">
                     <Card id="aboutmeTitleBox">
                         <p id="aboutmeTitleTxt">Who Am I?</p>
                     </Card>
                 </Col>
             </Row>
             <Row>
-                <Col lg="3">
+                <Col sm="3">
                     <ProfileImgCard />
                 </Col>
-                <Col lg="9">
+                <Col sm="9">
                     <Card id="aboutmeTxtBox">
                         <p id="aboutmeInfoTxt">My name is Sean Kirkpatrick. I currently work for Apple and am training to be 
                         a full stack web developer. I graduated from Marist College with a B.S. in Business Administration with an Emphasis 

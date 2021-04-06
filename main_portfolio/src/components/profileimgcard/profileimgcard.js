@@ -9,7 +9,7 @@ class profileimgcard extends React.Component {
     render() {
         return (<Card id="profileCard">
             <Row>
-                <Col lg="12">
+                <Col sm="12">
                     <img src={mainImg} id="mainImg" alt="Sean Kirkpatrick" />
                 </Col>
             </Row>

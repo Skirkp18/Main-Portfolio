@@ -1,10 +1,11 @@
 #mainImg {
-    width: 350px;
-    margin: 25px;
+    max-width: 100%;
+    resize: both;
     border: solid 4px black;
 }
 
 #profileCard {
     align-items: center;
     border: 0px;
+    margin-top: 20px;
 }
