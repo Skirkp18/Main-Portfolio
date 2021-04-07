@@ -10,9 +10,9 @@ class linkBtn extends React.Component {
         const link = this.props.site.link;
         const imgUrl = this.props.site.imgUrl;
         return (
-            <Button variant="light" className="linkbtn" href={link}>
+                <Button variant="light" className="linkbtn" href={link}>
                     <img className="linkimg" src={imgUrl} alt={linkName} />
-                    </Button>
+                </Button>
         )
     }
 };

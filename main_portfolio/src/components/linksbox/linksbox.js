@@ -32,18 +32,16 @@ class linksbox extends React.Component {
     render() {
         return(
             <Card id="linksBoxCard">
-                <Container id>
                     <Row>
                     {this.linksList.map((site) => {
                         console.log(site.name);
                         return(
-                            <Col sm="3">
-                        <LinkBtn site={site} key={site.name} id={site.name} />
+                        <Col sm="3">
+                            <LinkBtn site={site} key={site.name} id={site.name} />
                         </Col>
                         );
                     })}
                     </Row>
-                </Container>
             </Card>
         );
     };

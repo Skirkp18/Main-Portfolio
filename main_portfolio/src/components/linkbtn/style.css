@@ -4,4 +4,9 @@
 }
 
 .linkbtn {
+    background-color: whitesmoke !important;
+    border: 2px solid black !important;
+    margin: auto !important;
+    width: 50px;
+
 }

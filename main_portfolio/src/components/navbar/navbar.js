@@ -8,6 +8,7 @@ function navBar() {
             <Container fluid>
                 <Navbar.Brand href="/" id="navbarTxt">Sean Kirkpatrick</Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text id="navbarTxt"><a href="/">Home</a></Navbar.Text>
                     <Navbar.Text id="navbarTxt"><a href="/projects">Projects</a></Navbar.Text>
                 </Navbar.Collapse>
             </Container>
