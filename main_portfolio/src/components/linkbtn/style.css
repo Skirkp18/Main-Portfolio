@@ -1,6 +1,7 @@
 .linkimg{
     width: 25px;
     height: 25px;
+    margin: auto;
 }
 
 .linkbtn {
@@ -8,5 +9,6 @@
     border: 2px solid black !important;
     margin: auto !important;
     width: 50px;
+    height: 45px;
 
 }

@@ -9,7 +9,7 @@ class skillscard extends React.Component {
             <Card id="skillsCard">
                 <Row>
                     <Col lg="4">
-                        <Card>
+                        <Card style={{border: "0px", margin: "10px"}}>
                             <h3>Education:</h3>
                             <ul>
                                 <li>Marist College</li>
@@ -23,21 +23,26 @@ class skillscard extends React.Component {
                         </Card>
                     </Col>
                     <Col lg="4">
-                        <Card>
+                    <Card style={{border: "0px", margin: "10px"}}>
                             <h3>Skills:</h3>
                             <ul>
                                 <li>Leadership</li>
                                 <li>React</li>
+                                <li>JSX</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                                 <li>BootStrap by Twitter</li>
                                 <li>JQuery</li>
+                                <li>Customer Service</li>
+                                <li>Presenting</li>
+                                <li>Consumer Technology Sales</li>
+                                <li>Retal Sales</li>
                             </ul>
                         </Card>
                     </Col>
                     <Col lg="4">
-                        <Card>
+                    <Card style={{border: "0px", margin: "10px"}}>
                         <h3>Expirence:</h3>
                             <ul>
                                 <li>Specalist - Apple Inc. (Current)</li>

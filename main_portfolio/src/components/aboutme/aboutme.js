@@ -35,14 +35,8 @@ class aboutme extends React.Component {
                           latest tech as well as the companies that make them and the current market conditions.</p>
                     </Card>
                 <SkillsCard />
-
                 </Col>
             </Row>
-            {/* <Row>
-                <Col>
-                <SkillsCard />
-                </Col>
-            </Row> */}
             </Container>
         </Card>);
     }

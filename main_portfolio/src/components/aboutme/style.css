@@ -18,7 +18,7 @@
 }
 
 #aboutmeTxtBox {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     border: solid 3px black;
     margin-top: 20px;
 }
@@ -26,4 +26,5 @@
 #aboutmeInfoTxt {
     font-family: 'Exo', sans-serif;
     margin: 5px;
+    margin-left: 10px;
 }
