@@ -1,9 +1,16 @@
 import React from "react";
-// import {Container, Row, Col} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
+import ProjectsCard from "../components/projectscard/projectscard";
 
 function projects() {
     return(
-        <h1>Projects Page!</h1>
+        <Container fluid id="mainBackground">
+        <Row>
+            <Col lg="auto">
+            <ProjectsCard />
+            </Col>
+        </Row>
+    </Container>
     );
 };
 

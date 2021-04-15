@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import AboutMe from "../components/aboutme/aboutme";
-import LinksBox from "../components/linksbox/linksbox";
 
 
 function MainPage() {

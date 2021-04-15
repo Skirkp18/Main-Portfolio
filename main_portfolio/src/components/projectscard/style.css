@@ -1,0 +1,18 @@
+#projectsTitleBox {
+    text-align: center;
+    border: 0px;
+    border-bottom: 4px solid black;
+}
+
+#projectsTitleTxt {
+    font-family: 'Exo', sans-serif;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#projectsBox {
+    border: solid 4px black;
+    margin: 10px;
+    margin-bottom: 10px;
+}
